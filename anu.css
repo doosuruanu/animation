@@ -1,0 +1,17 @@
+div{
+    border: 2px solid palevioletred;
+    height: 50px;
+    width:50px;
+    border-radius: 1em;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction:alternate ;
+    animation-timing-function: linear;
+}
+@keyframes move{
+    from{ left:0px; background-color: blue;}
+    to{left: 200px; background-color: crimson;}
+}
